@@ -38,7 +38,7 @@ describe("Assertion demo", () => {
     cy.get("input[placeholder='Username']").type("Admin");
     cy.get("input[placeholder='Password']").type("admin123");
     cy.get("button[type='submit']").click();
-    let expName = "Paul Colling";
+    let expName = "manda1 user";
 
     cy.get(".oxd-userdropdown-name").then((x) => {
       let actName = x.text();
